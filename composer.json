@@ -1,0 +1,14 @@
+{
+    "name": "flyskypie/google-drive-backup",
+    "description" : "backup google drive in PHP",
+    "keywords": ["drive", "php"],
+    "license": "MIT",
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+	  "autoload":{
+		  "psr-4":{
+				  "FlySkyPie\\GoogleDriveBackup\\":"src/"
+			  }
+	  }
+}

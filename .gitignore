@@ -1,0 +1,5 @@
+composer.lock
+credentials.json
+token.json
+/vendor
+test.php
